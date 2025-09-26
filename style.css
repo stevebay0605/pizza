@@ -290,3 +290,50 @@ span {
   color: #333;
   line-height: 1.1;
 }
+
+
+.contact-form{
+  max-width: 600px;
+  padding: 40px;
+  background-color:rgba(255, 255, 255, 0.055);
+  border-radius: 20px;
+
+}
+
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,.contact-form textarea{
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+ outline: none;
+ border:3px pink solid;
+}
+
+.contact-form textarea{
+  height: 150px;
+  resize: none;
+}
+
+.contact-form button{
+  background-color: pink;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.contact-form button:hover{
+  background-color: rgba(255, 0, 0, 0.304);
+  transition: 0.5s ease;
+}
